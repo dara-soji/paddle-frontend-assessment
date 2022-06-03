@@ -1,0 +1,62 @@
+.footer{
+    width: 100%;
+    height: 298px;
+
+    background: url('../../assets/background.svg');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    overflow: hidden;
+
+    .footer__icons{
+        width: 330px;
+        justify-content: space-between;
+        margin-bottom: 22px;
+        color: #FFFFFF;
+        opacity: 0.61;
+        // margin: 0 10px;
+    }
+
+    .footer__policy{
+        max-width: 330px;
+        justify-content: space-between;
+        margin-bottom: 22px;
+        text-align: center;
+        font: normal normal normal 20px 'Poppins';
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 0.61;
+        // margin: 0 10px;
+    }
+
+    .footer__copyright{
+        text-align: center;
+        font: normal normal normal 20px 'Poppins';
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 0.61;
+        padding: 0 10px;
+    }
+}
+
+// .footer__circle{
+//     position: absolute;
+    
+//     width: 1989px;
+//     height: 1989px;
+//     background: transparent linear-gradient(180deg, #213F72 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+//     border: 1px solid #707070;
+//     opacity: 0.5;
+//     backdrop-filter: blur(27px);
+//     -webkit-backdrop-filter: blur(27px);
+//     border-radius: 50%;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+// //   left: 50%;
+//   transform: translate(-15%, 0);
+// }

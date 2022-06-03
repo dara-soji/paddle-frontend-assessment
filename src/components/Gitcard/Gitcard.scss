@@ -1,0 +1,51 @@
+.gitcard{
+    width: 100%;
+    margin: 20px 30px;
+    padding: 10px 15px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .gitcard__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 150px;
+
+        .gitcard__name{
+
+        }
+
+        .gitcard__desc{
+
+        }
+
+        .gitcard__info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .gitcard__info-stars, .gitcard__info-issues{
+                padding: 5px 10px;
+                border-radius: 5px;
+                border: rgba(0, 0, 0, 0.596) 1px solid;
+                margin-right: 10px;
+            }
+
+            .gitcard__info-date{
+                margin-left: 10px;
+            }
+
+        }
+    }
+}
