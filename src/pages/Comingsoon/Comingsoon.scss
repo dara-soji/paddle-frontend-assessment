@@ -1,0 +1,182 @@
+.comingsoon{
+    width: 100%;
+    min-height: 1120px;
+    background: url('../../assets/background.svg');
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+    .comingsoon__content{
+        padding: 20px 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        z-index: 10;
+
+
+        .comingsoon__content-heading{
+            text-align: center;
+            font: normal normal bold 62px/84px Poppins;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            opacity: 1;
+        }
+
+        .comingsoon__content-subtext{
+            text-align: center;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+            font: normal normal 200 21px 'Poppins';
+
+            span{
+                font-weight: 500;
+            }
+        }
+
+        .comingsoon__waiting-list{
+            width: 100%;
+            flex-direction: column;
+
+            .comingsoon__name-input{
+                width: 70%;
+                // height: 100px;
+                margin-bottom: 40px;
+
+                input{
+                    flex: 1;
+                    border: none;
+                    background-color: transparent;
+                    height: 33px;
+                    border-bottom: rgba(158, 158, 158, 0.678) solid 2px;
+                    // border-color: rgb(175, 175, 175);
+                    position: relative;
+                    color: white;
+
+                    &:focus{
+                        outline: none;
+                    }
+                  
+                }
+
+                input + input{
+                    margin-left: 20px;
+                }
+
+                
+
+
+
+            }
+
+            .comingsoon__email-submit{
+                width: 90%;
+                background-color: white;
+                height: 67px;
+                border-radius: 50px;
+
+
+                input{
+                    // height: 100%;
+                    flex: 1;
+                    margin-left: 30px;
+                    border: none;
+                    background-color: transparent;
+
+                }
+                button{
+                    border: none;
+                    border-radius: 50px;
+                    background: #271AC1 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 0px 10px #09090991;
+                    height: 100%;
+                    padding: 0 35px;
+                    color: white;
+                    font: normal normal medium 16px/29px Poppins;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+
+        &::after{
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            top: 15%;
+            left: 19%;
+            width: 140px;
+            height: 143px;
+            /* UI Properties */
+            background: transparent linear-gradient(177deg, #7F1E7B 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+            opacity: 1;
+            z-index: -1;
+        }
+
+        &::before{
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            z-index: -1;
+
+            top: 30%;
+            left: 80%;
+            width: 104px;
+            height: 107px;
+            /* UI Properties */
+            background: transparent linear-gradient(177deg, #213F72 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        
+       
+    }
+    .the-countdown{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: black;
+
+        .countdown-box{
+          padding: 0.8rem 1.5rem;
+          background-color: white;
+          border-radius: 5px;
+          margin: 1rem 1.3rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        
+            p{
+                font-size: 0.8rem;
+                margin-top: 0.6rem;
+            }
+        }
+    }
+}
+      
+      
+.comingsoon__circle{
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+
+    top: 68%;
+    left: 21%;
+    width: 183px;
+    height: 187px;
+    /* UI Properties */
+    background: transparent linear-gradient(177deg, #7F4129 0%, #1C0C28 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
